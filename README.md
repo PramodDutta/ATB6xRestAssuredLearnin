@@ -5,3 +5,6 @@ Rest Assured Learning
 
 
 [Maven Mastery.pdf](https://github.com/user-attachments/files/15879753/Maven.Mastery.pdf)
+
+
+[TestNG Mastery.pdf](https://github.com/user-attachments/files/15907774/TestNG.Mastery.pdf)
