@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB6xRestAssuredLearning"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.741">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getRequest2"
+                time="1.447"
+                classname="com.thetestingacademy.testng.Lab261">
+            </testcase>
+            <testcase
+                name="getRequest"
+                time="2.294"
+                classname="com.thetestingacademy.testng.Lab261">
+            </testcase>
+</testsuite>
