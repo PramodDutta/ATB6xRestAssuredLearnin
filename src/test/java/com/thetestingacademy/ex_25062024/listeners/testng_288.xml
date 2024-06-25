@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Restful booker API Test Suite">
+    <listeners>
+        <listener class-name="com.thetestingacademy.ex_25062024.listeners.CustomListener"/>
+    </listeners>
+
+
+    <test verbose="2" preserve-order="true" name="ATB6xRestAssuredLearning">
+        <classes>
+            <class name="com.thetestingacademy.ex_25062024.listeners.Lab288">  </class>
+        </classes>
+    </test>
+</suite>
