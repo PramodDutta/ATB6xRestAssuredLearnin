@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB6xRestAssuredLearning"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.209">
+    <properties></properties>
+
+
+
+            <testcase
+                name="SeraJackson"
+                time="0.209"
+                classname="com.thetestingacademy.ex_27062024.jacksonapi.ser.Lab295">
+            </testcase>
+</testsuite>

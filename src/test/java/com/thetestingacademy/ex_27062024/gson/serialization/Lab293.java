@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex_22062024.CRUD.POST;
+package com.thetestingacademy.ex_27062024.gson.serialization;
 
 import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
@@ -9,8 +9,7 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
-public class Lab272 {
-
+public class Lab293 {
     RequestSpecification r = RestAssured
             .given();
 
@@ -60,29 +59,8 @@ public class Lab272 {
 
     }
 
-    @Description("TC#2 - Verify that create booking not working, with 500 Error")
-    @Test
-    public void testNonBDDStylePOSTNegative() {
-
-        String BASE_URL = "https://restful-booker.herokuapp.com";
-        String BASE_PATH = "/booking";
-        String payload = "{}";
-
-        r.baseUri(BASE_URL);
-        r.basePath(BASE_PATH);
-        r.contentType(ContentType.JSON).log().all();
-        r.body(payload);
-
-        response = r.when().log().all().post();
-        String responseString = response.asString();
-        System.out.println(responseString);
-
-
-        validatableResponse = response.then();
-        validatableResponse.statusCode(500);
 
 
 
 
-    }
 }
